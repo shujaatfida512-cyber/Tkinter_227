@@ -53,7 +53,8 @@ hasil_label =tk.Label(
         font=("Arial", 12, "bold")
 )
 hasil_label.pack(pady=10)
-     
+root.mainloop()
+   
         
              
                       
