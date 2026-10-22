@@ -33,3 +33,9 @@ for i in range (10):
         )
     
     entries.append(entry)
+     
+def prediksi():
+         hasil_label.config(
+             text="Predicted Study Program: Technology"
+         )
+ 
