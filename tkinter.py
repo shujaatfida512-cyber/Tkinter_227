@@ -27,5 +27,8 @@ for i in range (10):
         row=i, column=0, sticky="w",
         padx=10, pady=5
     )
-
-    
+    entry=ttk.Entry(input_frame, width=25)
+    entry.grid(
+            row=i, column=1, padx=10, pady=5
+        )
+ 
