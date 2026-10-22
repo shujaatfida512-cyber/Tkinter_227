@@ -31,4 +31,5 @@ for i in range (10):
     entry.grid(
             row=i, column=1, padx=10, pady=5
         )
- 
+    
+    entries.append(entry)
