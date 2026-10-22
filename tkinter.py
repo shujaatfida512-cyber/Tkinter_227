@@ -45,4 +45,7 @@ prediksi_button =ttk.button(
         command=prediksi
     )
              
-     
+prediksi_button.pack(pady=15)
+             
+             
+      
