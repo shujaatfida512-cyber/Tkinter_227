@@ -52,6 +52,8 @@ hasil_label =tk.Label(
         text="Prediction Result will appear here.",
         font=("Arial", 12, "bold")
 )
+hasil_label.pack(pady=10)
+     
         
              
                       
