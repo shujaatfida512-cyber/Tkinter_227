@@ -10,3 +10,9 @@ judul = tk.Label(
     text = "Study program Prediction",
     font = ("Arial", 16, "bold")
 )
+
+judul.pack(pady=20)
+
+input_frame = tk.Frame(root)
+input_frame.pack(pady=10)
+
