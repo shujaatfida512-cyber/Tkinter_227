@@ -35,7 +35,14 @@ for i in range (10):
     entries.append(entry)
      
 def prediksi():
-         hasil_label.config(
+        hasil_label.config(
              text="Predicted Study Program: Technology"
-         )
- 
+        )
+            
+prediksi_button =ttk.button(
+        root,
+        text="Prediction Results",
+        command=prediksi
+    )
+             
+     
