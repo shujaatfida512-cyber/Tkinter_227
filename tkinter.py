@@ -47,5 +47,12 @@ prediksi_button =ttk.button(
              
 prediksi_button.pack(pady=15)
              
+hasil_label =tk.Label(
+        root,
+        text="Prediction Result will appear here.",
+        font=("Arial", 12, "bold")
+)
+        
              
+                      
       
