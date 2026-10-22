@@ -18,3 +18,14 @@ input_frame.pack(pady=10)
 
 entries = []
 
+for i in range (10):
+    mata_pelajaran = tk.Label(
+        input_frame,
+        text=f"Subject {i+1} Value:"
+    )
+    mata_pelajaran.grid(
+        row=i, column=0, sticky="w",
+        padx=10, pady=5
+    )
+
+    
